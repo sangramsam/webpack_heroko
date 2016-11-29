@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "Simplest Heroku starter kit for React apps.",
   "main": "./src/entry.js",
-  "homepage": "https://github.com/wallacyyy/webpack-heroku",
+  "homepage": "https://github.com/sangramsam/webpack_heroko",
   "author": "Leonardo Couto",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "npm run build"
+
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wallacyyy/webpack-heroku.git"
+    "url": "git+https://github.com/sangramsam/webpack_heroko.git"
   },
   "keywords": [
     "react",
